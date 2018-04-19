@@ -1,0 +1,21 @@
+.field-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.field-wrapper div:first-child {
+    width: 70px;
+}
+
+input[type="number"] {
+    border: 1px solid #000;
+    margin: 2px;
+}
+
+input[type="number"]:hover {
+    background-color: #ccc;
+}
+
+input[type="number"]:focus {
+    background-color: yellow;
+}
